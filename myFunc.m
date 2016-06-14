@@ -1,0 +1,6 @@
+function txt = myFunc(empt,event_obj)
+pos = get(event_obj,'Position') %得到datacursor的值
+txt = {['x值是: ',num2str(pos(1))],...
+['y值是: ',num2str(pos(2))],...
+['z值是: ',num2str(pos(3))]};
+ dlmwrite('D:\3D.txt',pos,'-append', 'newline', 'pc')%写入文件的地址
