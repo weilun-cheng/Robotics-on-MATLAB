@@ -1,4 +1,1 @@
-Git is a distributed version control system.
-Git is free software distributed under the GPL.
-Git has a mutable index called stage.
-Git tracks changes of files.
+This is a GUI program about the robotics. It can use the angles of multiple joints of robot to get the 3D coordinate, also can do the reverse calculation.Based on the MATLAB and robotics toolbox.
